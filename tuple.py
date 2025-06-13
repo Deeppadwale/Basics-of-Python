@@ -28,31 +28,31 @@
 tuple_list=(0,1,2,3,4,5,6,7,8,9,"apple","banana","cherry","mango","potato","deep")
 
 
-# print(tuple_list[1])
-# print(tuple_list[2])
-# print(len(tuple_list))
-# print(tuple_list[1])
+print(tuple_list[1])
+print(tuple_list[2])
+print(len(tuple_list))
+print(tuple_list[1])
 
-# if "apple" in tuple_list :
-#     print("yes  the apple is in tuple list ")
-# if "deep " in tuple_list:
-#     print("Not in the tuple list ")
+if "apple" in tuple_list :
+    print("yes  the apple is in tuple list ")
+if "deep " in tuple_list:
+    print("Not in the tuple list ")
 
 
-#  # slicing 
-# tuple_list2=tuple_list[1:3]
-# print(tuple_list2)   
+ # slicing 
+tuple_list2=tuple_list[1:3]
+print(tuple_list2)   
 
 # # append tuple 
 
-# tuple_list3=list(tuple_list)
-# tuple_list3.append("this is the ")     
-# # tuple_list3.pop(3)
-# tuple_list3[2]="deep"       
+tuple_list3=list(tuple_list)
+tuple_list3.append("this is the ")     
+# tuple_list3.pop(3)
+tuple_list3[2]="deep"       
 
-# tuple_list=tuple(tuple_list3)
+tuple_list=tuple(tuple_list3)
 
-# print(tuple_list)
+print(tuple_list)
 res=tuple_list.index(3,3 ,7)
 print(res)
 
