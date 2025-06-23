@@ -1,0 +1,6 @@
+my_list=("apple","banana","orange","mago","orange")
+x=iter(my_list)
+print(next(x))
+print(next(x))
+print(next(x))
+print(next(x))
